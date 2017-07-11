@@ -59,7 +59,7 @@ function alert(){
             numeros[i] = i + 1;
         }
 
-        for (var i = 0; i < points.length; i++) {
+        for (var i = 0; i < numeros.length; i++) {
             console.log(numeros[i]);
             if (numeros % 2 == 0 ) {
               console.log('par')
