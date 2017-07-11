@@ -35,14 +35,14 @@ var content =[
 ]
 
 function alert(){
-               var question = confirm("Deseas continuar ?");
+               var question = confirm("Do you want to continue ?");
                if( question == true ){
                  //here it should call the arr
                   console.log (content);
                   return true;
                }
                else{
-                  console.log ("No deseo continuar!");
+                  console.log ("User does not want to continue!");
                   return false;
                }
             }
@@ -60,9 +60,10 @@ function alert(){
         }
 
         for (var i = 0; i < points.length; i++) {
-            console.log(points[i]);
-            if (i % 2 == 0 ) {
-              console.log('par');
+            console.log(numeros[i]);
+            if (numeros % 2 == 0 ) {
+              console.log('par')
+
             }
             else {
               console.log('primo')
