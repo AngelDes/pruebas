@@ -46,3 +46,16 @@ function alert(){
                   return false;
                }
             }
+
+
+
+  // Numeros del 1 al 100
+
+  var numeros = new Array(100);
+        for (var i = 0; i < 100; i++) {
+            numeros[i] = i + 1;
+        }
+
+        for (var i = 0; i < points.length; i++) {
+            console.log(points[i]);
+        }
