@@ -52,10 +52,29 @@ function alert(){
   // Numeros del 1 al 100
 
   var numeros = new Array(100);
+  var par = 'Par';
+  var primo = 'Primo';
+  var compuesto = 'Compuesto';
         for (var i = 0; i < 100; i++) {
             numeros[i] = i + 1;
         }
 
         for (var i = 0; i < points.length; i++) {
             console.log(points[i]);
+            if (i % 2 == 0 ) {
+              console.log('par');
+            }
+            else {
+              console.log('primo')
+            }
         }
+
+
+    //caracteres unicos
+
+    function characters( string ){
+    var unique='';
+    for(var i=0; i<string.length; i++){
+    }
+    return unique;
+}
