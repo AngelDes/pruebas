@@ -35,14 +35,14 @@ var content =[
 ]
 
 function alert(){
-               var question = confirm("Do you want to continue ?");
+               var question = confirm("Deseas continuar ?");
                if( question == true ){
                  //here it should call the arr
                   console.log (content);
                   return true;
                }
                else{
-                  console.log ("User does not want to continue!");
+                  console.log ("No deseo continuar!");
                   return false;
                }
             }
